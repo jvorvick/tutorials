@@ -2,22 +2,29 @@
 //   name: string;
 //   age: number;
 // } = {
-const person: {
-  name: string;
-  age: number;
-  hobbies: string[];
-  role: [number, string];
-} = {
+// const person: {
+//   name: string;
+//   age: number;
+//   hobbies: string[];
+//   role: [number, string];
+// } = {
+//   name: 'Jesse',
+//   age: 31,
+//   hobbies: ['Video Games', 'Martial Arts'],
+//   role: [2, 'author']
+// };
+
+const person = {
   name: 'Jesse',
   age: 31,
   hobbies: ['Video Games', 'Martial Arts'],
-  role: [2, 'author']
+  role: 0
 };
 
 // person.role.push('admin');
 // person.role[1] = 10;
 
-person.role = [0, 'admin', 'user'];
+// person.role = [0, 'admin', 'user'];
 
 let favoriteActivities: string[];
 favoriteActivities = ['Sports'];
